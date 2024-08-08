@@ -1,0 +1,159 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+@using System.Web.Mvc
+
+@{
+    ViewBag.Title = "Mostrar Carpetas";
+}
+
+<h2>@ViewBag.Message</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.CurrentPath))
+{
+    string fullPath = "";
+
+    try
+    {
+        fullPath = Server.MapPath("~/all/" + ViewBag.CurrentPath); // Ruta completa al directorio actual específico
+
+        DirectoryInfo currentDir = new DirectoryInfo(fullPath);
+
+        if (currentDir.Parent != null)
+        {
+            // Obtener la ruta del directorio padre relativa a ~/all/
+            string parentPath = currentDir.Parent.FullName.Replace(Server.MapPath("~/all/"), "");
+        }
+    }
+    catch (Exception ex)
+    {
+        <p>Error al procesar la ruta: @ex.Message</p>
+    }
+}
+
+@if (ViewBag.Folders.Count > 0)
+{
+    <label for="carpeta">Seleccione una carpeta:</label>
+    <select id="carpeta" onchange="cargarSubcarpetas()">
+        <option value="">Seleccione una carpeta</option>
+        @foreach (var folder in ViewBag.Folders)
+        {
+            <option value="@folder">@folder</option>
+        }
+    </select>
+
+    <br />
+    <br />
+
+    <div id="subcarpetas">
+        <!-- Aquí se cargarán las subcarpetas dinámicamente -->
+    </div>
+
+    <br />
+
+    <div id="crearCarpetaForm" style="display:none;">
+        <h3>Crear nueva carpeta</h3>
+        <form id="formCrearCarpeta">
+            <input type="hidden" id="carpetaSeleccionada" name="carpetaSeleccionada" />
+            <input type="hidden" id="subcarpetaSeleccionada" name="subcarpetaSeleccionada" />
+            <input type="text" id="nombreCarpeta" name="nombreCarpeta" placeholder="Nombre de la nueva carpeta" required />
+            <button type="submit">Crear Carpeta</button>
+        </form>
+        <div id="mensajeCrearCarpeta"></div>
+    </div>
+}
+else
+{
+    <p>No hay carpetas para mostrar.</p>
+}
+
+@using (Html.BeginForm("Upload", "Folder", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <input type="submit" value="Subir Archivo" />
+}
+
+@section scripts {
+    <script>
+        function cargarSubcarpetas() {
+            var carpetaSeleccionada = document.getElementById("carpeta").value;
+            if (carpetaSeleccionada !== "") {
+                // Realizar una solicitud AJAX para obtener las subcarpetas
+                var url = "@Url.Action("ObtenerSubcarpetas", "Folder")?carpeta=" + encodeURIComponent(carpetaSeleccionada);
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        var selectSubcarpetas = document.createElement("select");
+                        selectSubcarpetas.setAttribute("id", "subcarpeta");
+                        selectSubcarpetas.setAttribute("name", "subcarpeta");
+
+                        var optionDefault = document.createElement("option");
+                        optionDefault.textContent = "Seleccione una subcarpeta";
+                        selectSubcarpetas.appendChild(optionDefault);
+
+                        data.forEach(subcarpeta => {
+                            var option = document.createElement("option");
+                            option.value = subcarpeta;
+                            option.textContent = subcarpeta;
+                            selectSubcarpetas.appendChild(option);
+                        });
+
+                        // Reemplazar el contenido de #subcarpetas con el nuevo select de subcarpetas
+                        var divSubcarpetas = document.getElementById("subcarpetas");
+                        divSubcarpetas.innerHTML = "";
+                        divSubcarpetas.appendChild(selectSubcarpetas);
+
+                        // Mostrar el formulario para crear una nueva carpeta
+                        var divCrearCarpetaForm = document.getElementById("crearCarpetaForm");
+                        divCrearCarpetaForm.style.display = "block";
+
+                        // Configurar el valor del input hidden con la carpeta seleccionada
+                        document.getElementById("carpetaSeleccionada").value = carpetaSeleccionada;
+                    })
+                    .catch(error => console.error("Error al cargar subcarpetas:", error));
+            } else {
+                // Limpiar subcarpetas si no se selecciona ninguna carpeta
+                var divSubcarpetas = document.getElementById("subcarpetas");
+                divSubcarpetas.innerHTML = "";
+
+                // Ocultar el formulario para crear una nueva carpeta
+                var divCrearCarpetaForm = document.getElementById("crearCarpetaForm");
+                divCrearCarpetaForm.style.display = "none";
+            }
+        }
+
+        // Manejar el envío del formulario para crear una nueva carpeta
+        document.getElementById("formCrearCarpeta").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var carpetaSeleccionada = document.getElementById("carpetaSeleccionada").value;
+            var subcarpetaSeleccionada = document.getElementById("subcarpeta").value; // Obtener la subcarpeta seleccionada
+            var nombreCarpeta = document.getElementById("nombreCarpeta").value;
+
+            var url = "@Url.Action("CrearCarpeta", "Folder")";
+            var formData = new FormData();
+            formData.append("carpetaPadre", carpetaSeleccionada);
+            formData.append("subcarpeta", subcarpetaSeleccionada); // Agregar la subcarpeta al FormData
+            formData.append("nombreCarpeta", nombreCarpeta);
+
+            fetch(url, {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Mostrar mensaje de éxito
+                    document.getElementById("mensajeCrearCarpeta").innerHTML = `<p style="color: green;">${data.message}</p>`;
+                    // Recargar las subcarpetas para mostrar la nueva carpeta creada
+                    cargarSubcarpetas();
+                } else {
+                    // Mostrar mensaje de error
+                    document.getElementById("mensajeCrearCarpeta").innerHTML = `<p style="color: red;">${data.message}</p>`;
+                }
+            })
+            .catch(error => {
+                console.error("Error al crear carpeta:", error);
+                document.getElementById("mensajeCrearCarpeta").innerHTML = `<p style="color: red;">Error al crear carpeta.</p>`;
+            });
+        });
+    </script>
+}

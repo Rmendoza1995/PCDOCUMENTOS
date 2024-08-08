@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\pcdocumentos\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|c:\\users\\valsisdes1\\source\\repos\\pcdocumentos\\pcdocumentos\\views\\folder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\views\\folder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\pcdocumentos\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|c:\\users\\valsisdes1\\source\\repos\\pcdocumentos\\pcdocumentos\\controllers\\foldercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\controllers\\foldercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|c:\\users\\valsisdes1\\source\\repos\\pcdocumentos\\pcdocumentos\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|c:\\users\\valsisdes1\\source\\repos\\pcdocumentos\\pcdocumentos\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\pcdocumentos\\models\\loginusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\models\\loginusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\pcdocumentos\\models\\userpermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\models\\userpermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\pcdocumentos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{44AB991A-CA30-487B-95FB-EE870C0D2CF6}|PCDOCUMENTOS\\PCDOCUMENTOS.csproj|solutionrelative:pcdocumentos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1562,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserPermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\UserPermissionsController.cs",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Models\\UserPermissionsController.cs",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\UserPermissionsController.cs",
+              "RelativeToolTip": "PCDOCUMENTOS\\Models\\UserPermissionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T21:13:42.916Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1894475213:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PCDOCUMENTOS\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAYwI4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T20:12:21.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Folder\\Index.cshtml",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Views\\Folder\\Index.cshtml",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Folder\\Index.cshtml",
+              "RelativeToolTip": "PCDOCUMENTOS\\Views\\Folder\\Index.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAEMAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T00:13:07.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PCDOCUMENTOS\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T15:14:48.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FolderController.cs",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Controllers\\FolderController.cs",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Controllers\\FolderController.cs",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Controllers\\FolderController.cs",
+              "RelativeToolTip": "PCDOCUMENTOS\\Controllers\\FolderController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwFQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:56:06.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PCDOCUMENTOS\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:27:15.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\LoginUsuarios.cs",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Models\\LoginUsuarios.cs",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Models\\LoginUsuarios.cs",
+              "RelativeToolTip": "PCDOCUMENTOS\\Models\\LoginUsuarios.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T22:41:50.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "PCDOCUMENTOS\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAlwFwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T19:17:01.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Web.config",
+              "RelativeDocumentMoniker": "PCDOCUMENTOS\\Web.config",
+              "ToolTip": "C:\\Users\\valsisdes1\\Source\\repos\\PCDOCUMENTOS\\PCDOCUMENTOS\\Web.config",
+              "RelativeToolTip": "PCDOCUMENTOS\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-29T20:42:16.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 68,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
